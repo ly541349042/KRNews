@@ -7,6 +7,10 @@ target 'KRNews' do
 
   # Pods for KRNews
   pod 'Alamofire'
+  pod 'HandyJSON'
+  pod 'MBProgressHUD'
+  pod 'MJRefresh'
+  pod 'SDWebImage'
 
   target 'KRNewsTests' do
     inherit! :search_paths

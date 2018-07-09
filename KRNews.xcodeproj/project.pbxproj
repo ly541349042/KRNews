@@ -9,12 +9,38 @@
 /* Begin PBXBuildFile section */
 		3CEE86B8676FC0BF5E63B202 /* Pods_KRNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D48137C734213386B181B3 /* Pods_KRNews.framework */; };
 		520DBAD120EDB106004FA6AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520DBAD020EDB106004FA6AD /* AppDelegate.swift */; };
-		520DBAD320EDB106004FA6AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520DBAD220EDB106004FA6AD /* ViewController.swift */; };
-		520DBAD620EDB106004FA6AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520DBAD420EDB106004FA6AD /* Main.storyboard */; };
 		520DBAD820EDB107004FA6AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520DBAD720EDB107004FA6AD /* Assets.xcassets */; };
 		520DBADB20EDB107004FA6AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520DBAD920EDB107004FA6AD /* LaunchScreen.storyboard */; };
 		520DBAE620EDB107004FA6AD /* KRNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520DBAE520EDB107004FA6AD /* KRNewsTests.swift */; };
 		520DBAF120EDB107004FA6AD /* KRNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520DBAF020EDB107004FA6AD /* KRNewsUITests.swift */; };
+		5262170C20F2ECB300BF0B0A /* LYBaseTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262170B20F2ECB300BF0B0A /* LYBaseTabViewController.swift */; };
+		5262170E20F2ECC900BF0B0A /* LYBaseNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262170D20F2ECC900BF0B0A /* LYBaseNaviViewController.swift */; };
+		5262171020F2ECD300BF0B0A /* LYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262170F20F2ECD300BF0B0A /* LYBaseViewController.swift */; };
+		5262171220F2ED1500BF0B0A /* KRTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262171120F2ED1500BF0B0A /* KRTabViewController.swift */; };
+		5262171420F2F15F00BF0B0A /* KRNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262171320F2F15F00BF0B0A /* KRNewsViewController.swift */; };
+		5262171620F2F16C00BF0B0A /* KRActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262171520F2F16C00BF0B0A /* KRActivityViewController.swift */; };
+		5262171820F2F17D00BF0B0A /* KRMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262171720F2F17D00BF0B0A /* KRMessageViewController.swift */; };
+		5262171A20F2F18A00BF0B0A /* KRProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262171920F2F18A00BF0B0A /* KRProfileViewController.swift */; };
+		5262171D20F2FCF900BF0B0A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5262171C20F2FCF900BF0B0A /* Default-568h@2x.png */; };
+		5262171F20F2FEC500BF0B0A /* LYBaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262171E20F2FEC500BF0B0A /* LYBaseTableView.swift */; };
+		5262172320F300EA00BF0B0A /* LYBaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262172220F300EA00BF0B0A /* LYBaseViewModel.swift */; };
+		5262172520F300FA00BF0B0A /* LYBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262172420F300FA00BF0B0A /* LYBaseModel.swift */; };
+		5262172720F3029900BF0B0A /* KRNewsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262172620F3029900BF0B0A /* KRNewsTableView.swift */; };
+		5262172A20F303F900BF0B0A /* KRNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262172920F303F900BF0B0A /* KRNewsModel.swift */; };
+		5262172C20F3040A00BF0B0A /* KRNewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262172B20F3040A00BF0B0A /* KRNewsViewModel.swift */; };
+		5262172E20F3061B00BF0B0A /* LYBaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262172D20F3061B00BF0B0A /* LYBaseRequest.swift */; };
+		5262173020F3062D00BF0B0A /* LYNetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262172F20F3062D00BF0B0A /* LYNetManager.swift */; };
+		5262173320F306F400BF0B0A /* LYBaseDefines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262173220F306F400BF0B0A /* LYBaseDefines.swift */; };
+		5262173620F3160000BF0B0A /* KRNewsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262173520F3160000BF0B0A /* KRNewsRequest.swift */; };
+		5262173820F317E200BF0B0A /* LYAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262173720F317E200BF0B0A /* LYAuthManager.swift */; };
+		5262173A20F31DEE00BF0B0A /* KRProfileTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262173920F31DEE00BF0B0A /* KRProfileTableView.swift */; };
+		5262173F20F31EF300BF0B0A /* LYLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262173D20F31EF300BF0B0A /* LYLoginViewController.swift */; };
+		5262174020F31EF300BF0B0A /* LYLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5262173E20F31EF300BF0B0A /* LYLoginViewController.xib */; };
+		5262174220F3206C00BF0B0A /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262174120F3206C00BF0B0A /* UserInfoModel.swift */; };
+		5262174420F32B7F00BF0B0A /* KRActivityTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262174320F32B7F00BF0B0A /* KRActivityTableView.swift */; };
+		5262174620F32BD500BF0B0A /* KRActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262174520F32BD500BF0B0A /* KRActivityViewModel.swift */; };
+		5262174820F32C0000BF0B0A /* KRActivityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262174720F32C0000BF0B0A /* KRActivityModel.swift */; };
+		5262174B20F3307900BF0B0A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262174A20F3307900BF0B0A /* StringExtension.swift */; };
 		86CFED94E1CAFFBD13E69E5E /* Pods_KRNewsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D5A999641AE10793E956A2 /* Pods_KRNewsTests.framework */; };
 		B99211DAAF1D8FCB68A68BAD /* Pods_KRNewsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17F36D030E113630EDEFF80B /* Pods_KRNewsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -43,8 +69,6 @@
 		40D48137C734213386B181B3 /* Pods_KRNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		520DBACD20EDB106004FA6AD /* KRNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KRNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		520DBAD020EDB106004FA6AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		520DBAD220EDB106004FA6AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		520DBAD520EDB106004FA6AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		520DBAD720EDB107004FA6AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		520DBADA20EDB107004FA6AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		520DBADC20EDB107004FA6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +78,34 @@
 		520DBAEC20EDB107004FA6AD /* KRNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		520DBAF020EDB107004FA6AD /* KRNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRNewsUITests.swift; sourceTree = "<group>"; };
 		520DBAF220EDB107004FA6AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5262170B20F2ECB300BF0B0A /* LYBaseTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBaseTabViewController.swift; sourceTree = "<group>"; };
+		5262170D20F2ECC900BF0B0A /* LYBaseNaviViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBaseNaviViewController.swift; sourceTree = "<group>"; };
+		5262170F20F2ECD300BF0B0A /* LYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBaseViewController.swift; sourceTree = "<group>"; };
+		5262171120F2ED1500BF0B0A /* KRTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRTabViewController.swift; sourceTree = "<group>"; };
+		5262171320F2F15F00BF0B0A /* KRNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRNewsViewController.swift; sourceTree = "<group>"; };
+		5262171520F2F16C00BF0B0A /* KRActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRActivityViewController.swift; sourceTree = "<group>"; };
+		5262171720F2F17D00BF0B0A /* KRMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRMessageViewController.swift; sourceTree = "<group>"; };
+		5262171920F2F18A00BF0B0A /* KRProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRProfileViewController.swift; sourceTree = "<group>"; };
+		5262171C20F2FCF900BF0B0A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5262171E20F2FEC500BF0B0A /* LYBaseTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBaseTableView.swift; sourceTree = "<group>"; };
+		5262172220F300EA00BF0B0A /* LYBaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBaseViewModel.swift; sourceTree = "<group>"; };
+		5262172420F300FA00BF0B0A /* LYBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBaseModel.swift; sourceTree = "<group>"; };
+		5262172620F3029900BF0B0A /* KRNewsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRNewsTableView.swift; sourceTree = "<group>"; };
+		5262172920F303F900BF0B0A /* KRNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRNewsModel.swift; sourceTree = "<group>"; };
+		5262172B20F3040A00BF0B0A /* KRNewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRNewsViewModel.swift; sourceTree = "<group>"; };
+		5262172D20F3061B00BF0B0A /* LYBaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBaseRequest.swift; sourceTree = "<group>"; };
+		5262172F20F3062D00BF0B0A /* LYNetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYNetManager.swift; sourceTree = "<group>"; };
+		5262173220F306F400BF0B0A /* LYBaseDefines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYBaseDefines.swift; sourceTree = "<group>"; };
+		5262173520F3160000BF0B0A /* KRNewsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRNewsRequest.swift; sourceTree = "<group>"; };
+		5262173720F317E200BF0B0A /* LYAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYAuthManager.swift; sourceTree = "<group>"; };
+		5262173920F31DEE00BF0B0A /* KRProfileTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRProfileTableView.swift; sourceTree = "<group>"; };
+		5262173D20F31EF300BF0B0A /* LYLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYLoginViewController.swift; sourceTree = "<group>"; };
+		5262173E20F31EF300BF0B0A /* LYLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYLoginViewController.xib; sourceTree = "<group>"; };
+		5262174120F3206C00BF0B0A /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		5262174320F32B7F00BF0B0A /* KRActivityTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRActivityTableView.swift; sourceTree = "<group>"; };
+		5262174520F32BD500BF0B0A /* KRActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRActivityViewModel.swift; sourceTree = "<group>"; };
+		5262174720F32C0000BF0B0A /* KRActivityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRActivityModel.swift; sourceTree = "<group>"; };
+		5262174A20F3307900BF0B0A /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		63426025DBB65F9776AA49D8 /* Pods-KRNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRNewsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRNewsUITests/Pods-KRNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B15D4B77D57B6D7A1533859 /* Pods-KRNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRNews.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRNews/Pods-KRNews.release.xcconfig"; sourceTree = "<group>"; };
 		8FB89544324B14C06F1855B9 /* Pods-KRNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRNews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRNews/Pods-KRNews.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,12 +166,8 @@
 		520DBACF20EDB106004FA6AD /* KRNews */ = {
 			isa = PBXGroup;
 			children = (
-				520DBAD020EDB106004FA6AD /* AppDelegate.swift */,
-				520DBAD220EDB106004FA6AD /* ViewController.swift */,
-				520DBAD420EDB106004FA6AD /* Main.storyboard */,
-				520DBAD720EDB107004FA6AD /* Assets.xcassets */,
-				520DBAD920EDB107004FA6AD /* LaunchScreen.storyboard */,
-				520DBADC20EDB107004FA6AD /* Info.plist */,
+				5262170220F2EB7900BF0B0A /* Special */,
+				5262170120F2EB5D00BF0B0A /* Common */,
 			);
 			path = KRNews;
 			sourceTree = "<group>";
@@ -140,6 +188,212 @@
 				520DBAF220EDB107004FA6AD /* Info.plist */,
 			);
 			path = KRNewsUITests;
+			sourceTree = "<group>";
+		};
+		5262170120F2EB5D00BF0B0A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5262174920F3306C00BF0B0A /* Extension */,
+				5262173120F306E100BF0B0A /* Definition */,
+				5262172120F3004000BF0B0A /* Model */,
+				5262172020F3003700BF0B0A /* ViewModel */,
+				5262170A20F2EC8D00BF0B0A /* Network */,
+				5262170920F2EC7E00BF0B0A /* Managers */,
+				5262170820F2EC7500BF0B0A /* Views */,
+				5262170720F2EC6E00BF0B0A /* Controllers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5262170220F2EB7900BF0B0A /* Special */ = {
+			isa = PBXGroup;
+			children = (
+				5262171B20F2FA1E00BF0B0A /* SupportingFiles */,
+				5262170620F2EBEA00BF0B0A /* Others */,
+				5262172820F303D300BF0B0A /* ViewModels */,
+				5262170520F2EBD700BF0B0A /* Models */,
+				5262170420F2EBD000BF0B0A /* Views */,
+				5262170320F2EBC200BF0B0A /* Controllers */,
+			);
+			path = Special;
+			sourceTree = "<group>";
+		};
+		5262170320F2EBC200BF0B0A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				528E8A0520F3555300F2E1EC /* Root */,
+				528E8A0420F3554900F2E1EC /* Profile */,
+				528E8A0320F3554200F2E1EC /* Message */,
+				528E8A0220F3553C00F2E1EC /* Activity */,
+				528E8A0120F3553300F2E1EC /* News */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5262170420F2EBD000BF0B0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5262172620F3029900BF0B0A /* KRNewsTableView.swift */,
+				5262174320F32B7F00BF0B0A /* KRActivityTableView.swift */,
+				5262173920F31DEE00BF0B0A /* KRProfileTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5262170520F2EBD700BF0B0A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5262172920F303F900BF0B0A /* KRNewsModel.swift */,
+				5262174720F32C0000BF0B0A /* KRActivityModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5262170620F2EBEA00BF0B0A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				520DBAD020EDB106004FA6AD /* AppDelegate.swift */,
+				5262173420F315E800BF0B0A /* Network */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		5262170720F2EC6E00BF0B0A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5262170B20F2ECB300BF0B0A /* LYBaseTabViewController.swift */,
+				5262170D20F2ECC900BF0B0A /* LYBaseNaviViewController.swift */,
+				5262170F20F2ECD300BF0B0A /* LYBaseViewController.swift */,
+				5262173D20F31EF300BF0B0A /* LYLoginViewController.swift */,
+				5262173E20F31EF300BF0B0A /* LYLoginViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5262170820F2EC7500BF0B0A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5262171E20F2FEC500BF0B0A /* LYBaseTableView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5262170920F2EC7E00BF0B0A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5262172F20F3062D00BF0B0A /* LYNetManager.swift */,
+				5262173720F317E200BF0B0A /* LYAuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5262170A20F2EC8D00BF0B0A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5262172D20F3061B00BF0B0A /* LYBaseRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5262171B20F2FA1E00BF0B0A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5262171C20F2FCF900BF0B0A /* Default-568h@2x.png */,
+				520DBAD920EDB107004FA6AD /* LaunchScreen.storyboard */,
+				520DBADC20EDB107004FA6AD /* Info.plist */,
+				520DBAD720EDB107004FA6AD /* Assets.xcassets */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5262172020F3003700BF0B0A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5262172220F300EA00BF0B0A /* LYBaseViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5262172120F3004000BF0B0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5262172420F300FA00BF0B0A /* LYBaseModel.swift */,
+				5262174120F3206C00BF0B0A /* UserInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5262172820F303D300BF0B0A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5262172B20F3040A00BF0B0A /* KRNewsViewModel.swift */,
+				5262174520F32BD500BF0B0A /* KRActivityViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5262173120F306E100BF0B0A /* Definition */ = {
+			isa = PBXGroup;
+			children = (
+				5262173220F306F400BF0B0A /* LYBaseDefines.swift */,
+			);
+			path = Definition;
+			sourceTree = "<group>";
+		};
+		5262173420F315E800BF0B0A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5262173520F3160000BF0B0A /* KRNewsRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5262174920F3306C00BF0B0A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5262174A20F3307900BF0B0A /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		528E8A0120F3553300F2E1EC /* News */ = {
+			isa = PBXGroup;
+			children = (
+				5262171320F2F15F00BF0B0A /* KRNewsViewController.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		528E8A0220F3553C00F2E1EC /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				5262171520F2F16C00BF0B0A /* KRActivityViewController.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		528E8A0320F3554200F2E1EC /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				5262171720F2F17D00BF0B0A /* KRMessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		528E8A0420F3554900F2E1EC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5262171920F2F18A00BF0B0A /* KRProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		528E8A0520F3555300F2E1EC /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				5262171120F2ED1500BF0B0A /* KRTabViewController.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 		9F4B3AF9243F4F3D67F10A97 /* Frameworks */ = {
@@ -275,7 +529,8 @@
 			files = (
 				520DBADB20EDB107004FA6AD /* LaunchScreen.storyboard in Resources */,
 				520DBAD820EDB107004FA6AD /* Assets.xcassets in Resources */,
-				520DBAD620EDB106004FA6AD /* Main.storyboard in Resources */,
+				5262171D20F2FCF900BF0B0A /* Default-568h@2x.png in Resources */,
+				5262174020F31EF300BF0B0A /* LYLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,10 +595,18 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-KRNews/Pods-KRNews-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -375,8 +638,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520DBAD320EDB106004FA6AD /* ViewController.swift in Sources */,
+				5262173320F306F400BF0B0A /* LYBaseDefines.swift in Sources */,
+				5262171020F2ECD300BF0B0A /* LYBaseViewController.swift in Sources */,
+				5262174620F32BD500BF0B0A /* KRActivityViewModel.swift in Sources */,
+				5262174820F32C0000BF0B0A /* KRActivityModel.swift in Sources */,
+				5262173A20F31DEE00BF0B0A /* KRProfileTableView.swift in Sources */,
+				5262174B20F3307900BF0B0A /* StringExtension.swift in Sources */,
+				5262172520F300FA00BF0B0A /* LYBaseModel.swift in Sources */,
+				5262172720F3029900BF0B0A /* KRNewsTableView.swift in Sources */,
+				5262171A20F2F18A00BF0B0A /* KRProfileViewController.swift in Sources */,
+				5262171620F2F16C00BF0B0A /* KRActivityViewController.swift in Sources */,
+				5262171F20F2FEC500BF0B0A /* LYBaseTableView.swift in Sources */,
+				5262174220F3206C00BF0B0A /* UserInfoModel.swift in Sources */,
+				5262173020F3062D00BF0B0A /* LYNetManager.swift in Sources */,
+				5262172C20F3040A00BF0B0A /* KRNewsViewModel.swift in Sources */,
+				5262172E20F3061B00BF0B0A /* LYBaseRequest.swift in Sources */,
+				5262170C20F2ECB300BF0B0A /* LYBaseTabViewController.swift in Sources */,
+				5262171420F2F15F00BF0B0A /* KRNewsViewController.swift in Sources */,
+				5262170E20F2ECC900BF0B0A /* LYBaseNaviViewController.swift in Sources */,
 				520DBAD120EDB106004FA6AD /* AppDelegate.swift in Sources */,
+				5262171820F2F17D00BF0B0A /* KRMessageViewController.swift in Sources */,
+				5262174420F32B7F00BF0B0A /* KRActivityTableView.swift in Sources */,
+				5262172A20F303F900BF0B0A /* KRNewsModel.swift in Sources */,
+				5262173820F317E200BF0B0A /* LYAuthManager.swift in Sources */,
+				5262172320F300EA00BF0B0A /* LYBaseViewModel.swift in Sources */,
+				5262171220F2ED1500BF0B0A /* KRTabViewController.swift in Sources */,
+				5262173620F3160000BF0B0A /* KRNewsRequest.swift in Sources */,
+				5262173F20F31EF300BF0B0A /* LYLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,14 +700,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		520DBAD420EDB106004FA6AD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				520DBAD520EDB106004FA6AD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		520DBAD920EDB107004FA6AD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -552,7 +832,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B35463YMLY;
-				INFOPLIST_FILE = KRNews/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/KRNews/Special/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -572,7 +852,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B35463YMLY;
-				INFOPLIST_FILE = KRNews/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/KRNews/Special/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
